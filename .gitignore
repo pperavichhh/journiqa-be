@@ -1,36 +1,35 @@
-# Ignore virtual environment
+# Virtual environments
 venv/
-.env
+ENV/
+env/
 
-# Byte-compiled / optimized / DLL files
+# Python cache files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# SQLite DB files
+# SQLite databases
 *.db
 *.sqlite3
 
 # Logs
 *.log
 
-# VS Code settings
-.vscode/
-
-# MacOS
-.DS_Store
-
 # Environment variables
 .env
 
-# Pytest cache
+# IDE settings
+.vscode/
+.idea/
+
+# macOS system files
+.DS_Store
+
+# Pytest
 .pytest_cache/
 
-# Mypy cache
+# Mypy
 .mypy_cache/
 
 # Pydantic compiled cache
 __pydantic_cache__/
-
-# IDEs
-.idea/
